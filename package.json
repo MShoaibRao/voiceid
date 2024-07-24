@@ -19,10 +19,6 @@
   "dependencies": {
     "@picovoice/eagle-web": "=1.0.0",
     "@picovoice/web-voice-processor": "~4.0.8"
-  },
-  "scripts": {
-    "build": "webpack --mode production",
-    "start": "node server.js"
-}
+  }
 }
 
