@@ -5,8 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "postinstall": "npx pvbase64 -i ../../lib/common/eagle_params.pv -o ./eagle_params.js",
-    "start": "http-server -a localhost -p 5000"
+    "postinstall": "npx pvbase64 -i ../../lib/common/eagle_params.pv -o ./eagle_params.js"
   },
   "keywords": [
     "Picovoice",
@@ -20,8 +19,6 @@
   "dependencies": {
     "@picovoice/eagle-web": "=1.0.0",
     "@picovoice/web-voice-processor": "~4.0.8"
-  },
-  "devDependencies": {
-    "http-server": "^14.0.0"
   }
 }
+
